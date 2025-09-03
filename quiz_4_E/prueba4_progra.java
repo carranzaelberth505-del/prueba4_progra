@@ -10,8 +10,14 @@ package Logic;
  */
 public class prueba4_progra {
 
-    public void prueba4_progra() {
-    System.out.println ("espero estar haciendo esto bien");
+   boolean todoBien = true; // simulamos que todo salió bien
+        public void ejecutar() {
+        if (todoBien) {
+            System.out.println("Espero estar haciendo esto bien");
+            System.out.println(1);
+        } else {
+            System.out.println(0);
+        }
     }
     
 
